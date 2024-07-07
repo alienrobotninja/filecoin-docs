@@ -63,3 +63,11 @@ files:
     translation: /translations/%two_letters_code%/storage-providers/*.md
   - source: /storage-providers/basics/*.md
     translation: /translations/%two_letters_code%/storage-providers/basics/*.md
+  - source: /storage-providers/filecoin-deals/*.md
+    translation: /translations/%two_letters_code%/storage-providers/filecoin-deals/*.md
+  - source: /storage-providers/filecoin-economics/*.md
+    translation: /translations/%two_letters_code%/storage-providers/filecoin-economics/*.md
+  - source: /storage-providers/infrastructure/*.md
+    translation: /translations/%two_letters_code%/storage-providers/infrastructure/*.md
+  - source: /storage-providers/skills/*.md
+    translation: /translations/%two_letters_code%/storage-providers/skills/*.md
