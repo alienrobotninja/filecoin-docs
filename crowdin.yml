@@ -1,13 +1,33 @@
 files:
   - source: /basics/*.md
-    translation: /basics/%locale_with_underscore%*.md
+    translation: /translations/%two_letters_code%/basics/*.md
   - source: /basics/assets/*.md
-    translation: /basics/assets/%locale_with_underscore%*.md
+    translation: /translations/%two_letters_code%/basics/assets/*.md
   - source: /basics/how-retrieval-works/*.md
-    translation: /basics/how-retrieval-works/%locale_with_underscore%*.md
+    translation: /translations/%two_letters_code%/basics/how-retrieval-works/*.md
   - source: /basics/how-storage-works/*.md
-    translation: /basics/how-storage-works/%locale_with_underscore%*.md
+    translation: /translations/%two_letters_code%/basics/how-storage-works/*.md
   - source: /basics/project-and-community/*.md
-    translation: /basics/project-and-community/%locale_with_underscore%*.md
+    translation: /translations/%two_letters_code%/basics/project-and-community/*.md
   - source: /basics/the-blockchain/*.md
-    translation: /basics/the-blockchain/%locale_with_underscore%*.md
+    translation: /translations/%two_letters_code%/basics/the-blockchain/*.md
+  - source: /builder-cookbook/*md
+    translation: /translations/%two_letters_code%/builder-cookbook/*.md
+  - source: /builder-cookbook/dapps/*.md
+    translation: /translations/%two_letters_code%/builder-cookbook/dapps/*.md
+  - source: /builder-cookbook/data-storage/*.md
+    translation: /translations/%two_letters_code%/builder-cookbook/data-storage/*.md
+  - source: /networks/*.md
+    translation: /translations/%two_letters_code%/networks/*.md
+  - source: /networks/calibration/*.md
+    translation: /translations/%two_letters_code%/networks/calibration/*.md
+  - source: /networks/deprecated-networks/*.md
+    translation: /translations/%two_letters_code%/networks/deprecated-networks/*.md
+  - source: /networks/local-testnet/*.md
+    translation: /translations/%two_letters_code%/networks/local-testnet/*.md
+  - source: /networks/mainnet/*.md
+    translation: /translations/%two_letters_code%/networks/mainnet/*.md
+  - source: /nodes/*.md
+    translation: /translations/%two_letters_code%/nodes/*.md
+  - source: /nodes/full-nodes/*.md
+    translation: /translations/%two_letters_code%/nodes/full-nodes/*.md
