@@ -31,3 +31,25 @@ files:
     translation: /translations/%two_letters_code%/nodes/*.md
   - source: /nodes/full-nodes/*.md
     translation: /translations/%two_letters_code%/nodes/full-nodes/*.md
+  - source: /nodes/implementations/*.md
+    translation: /translations/%two_letters_code%/nodes/implementations/*.md
+  - source: /nodes/lite-nodes/*.md
+    translation: /translations/%two_letters_code%/nodes/lite-nodes/*.md
+  - source: /reference/*.md
+    translation: /translations/%two_letters_code%/reference/*.md
+  - source: /reference/built-in-actors/*.md
+    translation: /translations/%two_letters_code%/reference/built-in-actors/*.md
+  - source: /reference/exchanges/*.md
+    translation: /translations/%two_letters_code%/reference/exchanges/*.md
+  - source: /reference/general/*.md
+    translation: /translations/%two_letters_code%/reference/general/*.md
+  - source: /reference/json-rpc/*.md
+    translation: /translation/%two_letters_code%/reference/json-rpc/*.md
+  - source: /smart-contracts/*.md
+    translation: /translations/%two_letters_code%/smart-contracts/*.md
+  - source: /smart-contracts/advanced/*.md
+    translation: /translation/%two_letters_code%/smart-contracts/advanced/*.md
+  - source: /smart-contracts/developing-contracts/*.md
+    translation: /translations/%two_letters_code%/smart-contracts/developing-contracts/*.md
+  - source: /smart-contracts/filecoin-evm-runtime/*.md
+    translation: /translations/%two_letters_code%/smart-contracts/filecoin-evm-runtime/*.md
