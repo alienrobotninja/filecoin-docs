@@ -57,3 +57,5 @@ files:
     translation: /translations/%two_letters_code%/smart-contracts/fundamentals/*.md
   - source: /smart-contracts/programmatic-storage/*.md
     translation: /translations/%two_letters_code%/smart-contracts/programmatic-storage/*.md
+  - source: /storage-providers/*.md
+    translation: /translations/%two_letters_code%/storage-providers/*.md
