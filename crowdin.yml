@@ -53,3 +53,7 @@ files:
     translation: /translations/%two_letters_code%/smart-contracts/developing-contracts/*.md
   - source: /smart-contracts/filecoin-evm-runtime/*.md
     translation: /translations/%two_letters_code%/smart-contracts/filecoin-evm-runtime/*.md
+  - source: /smart-contracts/fundamentals/*.md
+    translation: /translations/%two_letters_code%/smart-contracts/fundamentals/*.md
+  - source: /smart-contracts/programmatic-storage/*.md
+    translation: /translations/%two_letters_code%/smart-contracts/programmatic-storage/*.md
