@@ -1,7 +1,13 @@
 files:
   - source: /basics/*.md
-    translation: /french/basics/%locale_with_underscore%*.md
+    translation: /basics/%locale_with_underscore%*.md
   - source: /basics/assets/*.md
-    translation: /french/basics/assets/%locale_with_underscore%*.md
+    translation: /basics/assets/%locale_with_underscore%*.md
   - source: /basics/how-retrieval-works/*.md
-    translation: /french/basics/how-retrieval-works/%locale_with_underscore%*.md
+    translation: /basics/how-retrieval-works/%locale_with_underscore%*.md
+  - source: /basics/how-storage-works/*.md
+    translation: /basics/how-storage-works/%locale_with_underscore%*.md
+  - source: /basics/project-and-community/*.md
+    translation: /basics/project-and-community/%locale_with_underscore%*.md
+  - source: /basics/the-blockchain/*.md
+    translation: /basics/the-blockchain/%locale_with_underscore%*.md
