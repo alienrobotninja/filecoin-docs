@@ -1,1 +1,7 @@
-
+files:
+  - source: /basics/*.md
+    translation: /french/basics/%locale_with_underscore%*.md
+  - source: /basics/assets/*.md
+    translation: /french/basics/assets/%locale_with_underscore%*.md
+  - source: /basics/how-retrieval-works/*.md
+    translation: /french/basics/how-retrieval-works/%locale_with_underscore%*.md
