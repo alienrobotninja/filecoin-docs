@@ -44,7 +44,7 @@ To track all the deal aggregation/RaaS requests submitted to the smart contract,
 
 ```solidity
 uint256 private tableId;
-string private constant _TABLE_PREFIX = "aggregaor_table"; // Custom table prefix
+string private constant _TABLE_PREFIX = "aggregator_table"; // Custom table prefix
 
 // Constructor that creates a table, sets the controller, and inserts data
 constructor() {
@@ -142,3 +142,7 @@ console.log(results);
 ```
 
 To learn how to write different select statements using Tableland SDK, you can refer to [here](https://docs.tableland.xyz/sdk/database/prepared-statements).
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/builder-cookbook/dapps/decentralized-database)

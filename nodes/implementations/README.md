@@ -53,4 +53,8 @@ Forest is the Rust implementation of the Filecoin protocol with low hardware req
 
 Forest is currently used for generating up-to-date snapshots and managing archival copies of the Filecoin blockchain. Currently, the Forest team is hosting the entire Filecoin archival data for the community to use. This can be downloaded for free [here](https://forest-archive.chainsafe.dev/list/).
 
-You can find the [Forest codebase on GitHub](https://github.com/ChainSafe/forest) and the documentation site at [`chainsafe.github.io/forest`](https://chainsafe.github.io/forest/).
+You can learn more about Forest at the [codebase on GitHub](https://github.com/ChainSafe/forest) and [documentation site](https://docs.forest.chainsafe.io/).
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/nodes/implementations)

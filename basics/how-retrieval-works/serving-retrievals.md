@@ -34,3 +34,7 @@ When attempting this retrieval deal using Graphsync, payment channels are used t
 #### Finalize the retrieval
 
 Once the client has received the last chunk of data, the connection is closed.
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/basics/how-retrieval-works/serving-retrievals)

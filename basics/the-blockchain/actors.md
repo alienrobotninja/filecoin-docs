@@ -7,7 +7,7 @@ description: >-
 
 # Actors
 
-For those familiar with the Ethereum virtual machine (EVM), _actors_ work similarly to [smart contracts](../../smart-contracts/fundamentals/README.md). In the Filecoin network, there are two types of actors:
+For those familiar with the Ethereum virtual machine (EVM), _actors_ work similarly to [smart contracts](../../smart-contracts/fundamentals/). In the Filecoin network, there are two types of actors:
 
 * [_Built-in actors_](actors.md#built-in-actors): Hardcoded programs written ahead of time by network engineers that manage and orchestrate key subprocesses and subsystems in the Filecoin network.
 * [_User actors_](actors.md#user-actors-smart-contracts): Code implemented by **any developer** that interacts with the Filecoin Virtual Machine (FVM).
@@ -114,7 +114,7 @@ The `StoragePowerActor` is responsible for keeping track of the storage power al
 
 #### VerifiedRegistryActor
 
-The `VerifiedRegistryActor` is responsible for managing Filecoin Plus (Fil+) clients. This actor can add a verified client to the Fil+ program, remove and reclaim expired DataCap allocations, and manage claims. This actor does not interact directly with the FVM.
+The `VerifiedRegistryActor` is responsible for managing Filecoin Plus clients. This actor can add a verified client to the Filecoin Plus program, remove and reclaim expired DataCap allocations, and manage claims. This actor does not interact directly with the FVM.
 
 #### SystemActor
 
@@ -128,3 +128,6 @@ A _smart contract_ is a small, self-executing block of custom code that runs on 
 
 With the FVM, actors can be written in Solidity. In future updates, any language that compiles to WASM will be supported. With user actors, users can create and enforce custom rules for storing and accessing data on the network. The FVM is responsible for actors and ensuring that they are executed correctly and securely.
 
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/basics/the-blockchain/actors)

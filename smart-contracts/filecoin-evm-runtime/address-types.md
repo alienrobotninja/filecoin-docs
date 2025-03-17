@@ -137,9 +137,11 @@ Again, assume you have deployed a solidity smart contract on Filecoin Calibratio
 
 When you try to invoke this smart contract on Filecoin using Ethereum tooling, you need to use your `0x5f6044198a16279f87d2839c998893858bbf8d9c` smart contract address.
 
-### Converting to a 0x-style address
+### Converting to a 0x-style Address
 
 The Filecoin EVM runtime introduces support for `0x` Ethereum-style addresses. Filecoin addresses starting with either `f0` or `f410f` can be converted to the `0x` format as follows:
+
+![Filecoin to Ethereum Address Conversion](../../.gitbook/assets/ethereum-address-conversion.png)
 
 Addresses starting with `f0` can be converted to the `0x` format by:
 
@@ -157,3 +159,18 @@ Addresses starting with `f410f` address can be converted to the `0x` format by:
 {% hint style="danger" %}
 `f0` addresses are **not** re-org stable and should not be used until the chain has settled.
 {% endhint %}
+
+### Converting to a Filecoin Address
+
+On the flip side, Ethereum-style addresses can be converted to a Filecoin address as follows:
+
+Addresses starting with `0xff0000000000000000000000` can be converted to a Filecoin address by:
+
+* Decoding the last 16 hex digits into a uint64
+* Format the address as `f0${decimal(id)}` where decimal(id) is the decimal representation of the decoded actor ID.
+
+Otherwise, it maps to f410f…
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/smart-contracts/filecoin-evm-runtime/address-types)

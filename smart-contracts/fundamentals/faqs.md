@@ -40,7 +40,7 @@ An actor is code that the Filecoin virtual machine can run. Actors are also refe
 
 ## **What are built-in actors**
 
-[Built-in actors](https://github.com/filecoin-project/builtin-actors) are code that come precompilied into the Filecoin clients and can be run using the FVM. They are similar to [Ethereum precompiles](https://www.evm.codes/precompiled?fork=merge).
+[Built-in actors](https://github.com/filecoin-project/builtin-actors) are code that come precompiled into the Filecoin clients and can be run using the FVM. They are similar to [Ethereum precompiles](https://www.evm.codes/precompiled?fork=merge).
 
 ## **Why use the FEVM vs any other EVM compatible chain**
 
@@ -112,3 +112,7 @@ The intent of FEVM/FVM is to compute over state data (the metadata of your store
 ## **How do I close a storage deal on Filecoin and stop storage providers (SP) from storing my data on-chain**
 
 It’s not impossible but storage providers are incentivized not to close the storage deal as they are slashed for not providing [Proof of Spacetime (PoSt)](../../reference/general/glossary.md#proof-of-spacetime-post). Someone has to pay for the broken promise a miner makes to the chain and you need a custom market actor for it most likely to make the deal. You need to make deals for a certain amount of time - right now the boundaries are 6-18 months. You cannot ask a storage provider to take down your data without contacting them off-chain.
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/smart-contracts/fundamentals/faqs)

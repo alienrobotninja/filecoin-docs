@@ -87,7 +87,7 @@ contract MyToken is ERC20 {
 13. In Remix, open the **Deployed Contracts** dropdown.
 14. In the `mint` method, set:
     * `to` to your wallet address.
-    * `amount` to `100000000000000000000` (1 `FIL`).
+    * `amount` to `1000000000000000000` (1 `FIL`).
 15. Click **Transact**.
 16. In MetaMask, confirm the transaction.
 
@@ -114,3 +114,7 @@ The 0x protocol library provides a set of secure smart contracts that facilitate
 
 * [Documentation](https://docs.0x.org/introduction/introduction-to-0x)
 * [GitHub](https://github.com/0xProject)
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/smart-contracts/developing-contracts/solidity-libraries)

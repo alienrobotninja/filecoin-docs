@@ -73,7 +73,7 @@ The process for configuring MetaMask to use Filecoin is fairly simple but has so
 
 {% tabs %}
 {% tab title="Mainnet" %}
-<table><thead><tr><th width="159">Field</th><th>Value</th></tr></thead><tbody><tr><td>Network name</td><td><code>Filecoin</code></td></tr><tr><td>New RPC URL</td><td>Either:<br>- <code>https://api.node.glif.io/rpc/v1</code><br>- <code>https://filecoin.chainup.net/rpc/v1</code><br>- <code>https://infura.sftproject.io/filecoin/rpc/v1</code><br>- <code>https://rpc.ankr.com/filecoin</code></td></tr><tr><td>Chain ID</td><td><code>314</code></td></tr><tr><td>Currency symbol</td><td><code>FIL</code></td></tr></tbody></table>
+<table><thead><tr><th width="159">Field</th><th>Value</th></tr></thead><tbody><tr><td>Network name</td><td><code>Filecoin</code></td></tr><tr><td>New RPC URL</td><td>Either:<br>- <code>https://api.node.glif.io/rpc/v1</code><br>- <code>https://filecoin.chainup.net/rpc/v1</code><br>- <code>https://rpc.ankr.com/filecoin</code></td></tr><tr><td>Chain ID</td><td><code>314</code></td></tr><tr><td>Currency symbol</td><td><code>FIL</code></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Calibration" %}
@@ -107,7 +107,7 @@ Before you can connect MetaMask to your Ledger, you must install the Filecoin Le
 5. In **My Ledger**, head over to **App catalog** and search for **Filecoin**.
 6. Click **Install**.
 
-For more details on the official Filecoin Ledger app, [check out the Ledger documentation](https://support.ledger.com/hc/en-us/articles/4402721277329-Filecoin-FIL-?docs=true).
+For more details on the official Filecoin Ledger app, [check out the Ledger documentation](https://support.ledger.com/article/4402721277329-zd?redirect=false).
 
 ### Enable expert-mode
 
@@ -142,3 +142,7 @@ That's it! You've now successfully connected your Ledger device to MetaMask. Whe
 You may see a _blind signing_ warning on your MetaMask device. This is expected, and is the reason why **Expert Mode** must be enabled before you can interact with the Filecoin Ledger app.
 
 ![A Ledger device showing a blind signing warning.](../../.gitbook/assets/basics-assets-metamask-ledger-7-blind-signing.jpg)
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/basics/assets/metamask-setup)

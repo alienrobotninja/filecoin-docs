@@ -15,7 +15,7 @@ Website [beryx.zondax.ch](https://beryx.zondax.ch/)
 
 ### Filfox
 
-Website: [filfox.io](https://filfox.io)
+Website: [filfox.info](https://filfox.info)
 
 ### Filscan
 
@@ -28,6 +28,10 @@ Website: [filutils.com](https://www.filutils.com/en)
 ### Starboard
 
 Website: [fvm.starboard.ventures](https://fvm.starboard.ventures/)
+
+### Blockscout Open-Source FEVM Explorer
+
+Website: [filecoin.blockscout.com](https://filecoin.blockscout.com/)
 
 ## API requests
 
@@ -71,3 +75,7 @@ curl --location --request POST 'https://api.node.glif.io/rpc/v1' \
     "id":1
 }' | jq
 ```
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/networks/mainnet/explorers)

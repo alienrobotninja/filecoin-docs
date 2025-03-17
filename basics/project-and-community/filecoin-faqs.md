@@ -141,7 +141,7 @@ There’s a pretty large design space here, and we can do a bunch of different t
 
 #### Who will be selected to be verifiers to verify clients on the network?
 
-Notaries, selected through an application process, serve as fiduciaries for the Filecoin Network and are responsible for allocating DataCap to clients with valuable storage use cases.
+Allocators, selected through an application process, serve as fiduciaries for the Filecoin network and are responsible for allocating DataCap to clients with valuable storage use cases.
 
 See [Filecoin Plus](../how-storage-works/filecoin-plus.md).
 
@@ -153,4 +153,8 @@ Also, note that world location matters for mining: many clients will prefer stor
 
 #### Even though Filecoin will be backed up to our normal IPFS pinning layer, we still need to know how quickly we can access data from the Filecoin network. How fast will retrieval be from the Filecoin network?
 
-If you are retrieving your data from IPFS or a remote pinning layer, retrieval should take on the order of milliseconds to seconds in the worst case. Our latest tests for retrieval from the Filecoin network directly show that a sealed sector holding data takes \~1 hour to unseal. 1-5 hours is our best real-world estimate to go from sector unsealing to delivery of the data. If you need faster data retrieval for your application, we recommend building on IFPS.
+If you are retrieving your data from IPFS or a remote pinning layer, retrieval should take on the order of milliseconds to seconds in the worst case. Our latest tests for retrieval from the Filecoin network directly show that a sealed sector holding data takes \~1 hour to unseal. 1-5 hours is our best real-world estimate to go from sector unsealing to delivery of the data. If you need faster data retrieval for your application, we recommend building on IPFS.
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/basics/project-and-community/filecoin-faqs)

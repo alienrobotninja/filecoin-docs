@@ -1,11 +1,13 @@
 ---
 description: >-
-    This page covers the client contract, and includes a tutorial on how developers can use the client contract to create storage deals programmatically.
+  This page covers the client contract, and includes a tutorial on how
+  developers can use the client contract to create storage deals
+  programmatically.
 ---
 
-# Client contract tutorial
+# Direct deal-making with Client contract
 
-In this tutorial we will cover the background of creating storage deals using smart contracts, and how to create storage deals with smart contracts on the [Filecoin virtual machine](../../reference/general/glossary.md#filecoin-virtual-machine). 
+In this tutorial we will cover the background of creating storage deals using smart contracts, and how to create storage deals with smart contracts on the [Filecoin virtual machine](../../reference/general/glossary.md#filecoin-virtual-machine).
 
 You can find a video form of this walkthrough on [ETHGlobal’s YouTube Channel](https://www.youtube.com/watch?v=27EV3gQGY9k).
 
@@ -34,21 +36,18 @@ First, let’s grab the kit and set up the development environment.
     ```
 
     This will copy the FVM deal-making kit into your current directory and initiate the `go-generate-car` submodule.
-
 2.  Move into the `fvm-starter-kit-deal-making` directory and grab all the dependencies using `yarn`:
 
     ```shell
     cd fvm-starter-kit-deal-making
     yarn
     ```
-
 3.  Now that all the packages are downloaded, you need to create a `.env` file with your private key. This is so the Hardhat kit knows what wallet to use for transactions. Open up the repo in your code editor of choice and find the file titled `.env.example`. Rename the file to `.env`. You can do this in your terminal by running:
 
     ```shell
     mv .env.example .env
     ```
-
-4.  Within the `.env` file, replace the example private key with your actual private key. If you are using Metamask, follow [this tutorial to get your private key](https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key).
+4. Within the `.env` file, replace the example private key with your actual private key. If you are using Metamask, follow [this tutorial to get your private key](https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key).
 
 {% hint style="info" %}
 Take precautions and never share your private key with anyone! Also make sure to not check your private key into Git. The `.gitignore` of the Hardhat kit is already set to ignore `.env` files.
@@ -83,17 +82,17 @@ Before storing a file with a storage provider it needs to be prepared by turning
 Now that we have the `.car` file prepared in the data depot, we can invoke the MakeDealProposal method on the smart contract we deployed earlier. To do this, we will run the `make-deal-proposal` task in Hardhat. There are quite a few parameters to include in this call:
 
 * `contract`: the address of your deployed `ClientContract.sol`.
-* `piece-cid: gathered from the previous step.
+* \`piece-cid: gathered from the previous step.
 * `piece-size`: gathered from the previous step.
 * `car-size`: gathered from the previous step.
 * `start-epoch`: The block number you want the deal to begin on. It should be a block in the future. You can find the current block number on [Beryx](https://beryx.io/), making sure to select the correct network.
-* `end-epoch`: The block number you want the deal to end on. It should be a block in the future and after the `Start-Epoch`. You can find the current block number on [FILFOX](https://calibration.filfox.info/en).
+* `end-epoch`: The block number you want the deal to end on. It should be a block in the future and after the `Start-Epoch`. You can find the current block number on [FILFOX](http://47.109.105.51/en).
 * `location-ref`: The location of where the storage provider can find the .car file. This is the `URL` from the previous step.
 
 When calling the `make-deal-proposal` task in Hardhat, your command will look something like this:
 
 ```shell
-yarn hardhat make-deal-proposal \ 
+yarn hardhat make-deal-proposal \
     --contract 0x0219eB1740C315fe5e20612D7E13AE2A883dB3f4 \
     --piece-cid baga6ea4seaqn4eomxfk3ttog7lnvlvedu7nia377w4gotw2pm746k6kq7gwe6ga \
     --piece-size 2097152 \
@@ -124,3 +123,7 @@ After emitting an event and waiting for storage providers to accept your deal, y
 ## Conclusion
 
 During this tutorial, we have shown the significance of making deals using smart contracts and then walked through making a storage deal using the FVM deal-making kit and web3.storage. Developers can make use of this workflow to integrate decentralized storage on Filecoin with their smart contracts and decentralized applications.
+
+
+
+[Was this page helpful?](https://airtable.com/apppq4inOe4gmSSlk/pagoZHC2i1iqgphgl/form?prefill\_Page+URL=https://docs.filecoin.io/smart-contracts/developing-contracts/client-contract-tutorial)
